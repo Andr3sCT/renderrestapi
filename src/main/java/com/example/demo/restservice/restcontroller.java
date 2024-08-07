@@ -6,10 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/api")
 public class restcontroller {
 
-    @GetMapping("/name")
+    @GetMapping("/")
     public String getName() {
         return "José";
     }
